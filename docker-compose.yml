@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  data:
+    container_name: calculator
+    restart: always
+    build: ./
+    ports:
+      - "5200:5200"
+
+  
