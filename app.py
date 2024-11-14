@@ -14,7 +14,7 @@ asgi_app = WsgiToAsgi(app)
 
 CORS(app, resources={
     r"/*": {
-        "origins": ["http://www.tradingpro.ai"],
+        "origins": ["*"],
         "methods": ["GET", "POST", "DELETE", "PUT", "PATCH"],
         "allow_headers": ["Content-Type", "Authorization"]
     }
