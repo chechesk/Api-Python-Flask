@@ -90,9 +90,3 @@ CORS(app, resources={
         "allow_headers": ["Content-Type", "Authorization"]
     }
 })
-Ejecución de Pruebas
-Para ejecutar pruebas (si están disponibles), puedes ejecutar el siguiente comando:
-
-bash
-Copiar código
-pytest
