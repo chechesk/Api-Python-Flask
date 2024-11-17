@@ -1,11 +1,11 @@
-version: '3'
+# version: '3'
 
 services:
   data:
-    container_name: calculator
+    container_name: apipython
     restart: always
     build: ./
     ports:
-      - "5200:5200"
+      - "8000:8000"
 
   
